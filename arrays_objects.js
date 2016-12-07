@@ -14,7 +14,19 @@ var slang = ["scrap", "da kine", "li dat", "pau hana"];
 
 var donut ={
   topping : ["sprinkles", "choco", "air"],
-  filing : "jelly",]
-  shape : "square"
+  filing : "jelly",
+  shape : "square",
   count : 12
 }
+
+function whaeva(arg) {
+  console.log(arg[1] + arg[2]);
+}
+whaeva(numbers)
+
+function kms(smk){
+  for(var smk.topping = smk[0]; smk.topping<=4;smk.topping ++){
+    console.log("is good")
+  }
+}
+kms(donut.topping);
